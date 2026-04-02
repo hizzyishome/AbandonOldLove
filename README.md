@@ -6,7 +6,8 @@
       <strong>English</strong> | <a href="./README-ZH.md">简体中文</a>
     </p>
     <p align="center">
-      <strong>A zero-backend, beautifully crafted GitHub Star bulk manager.</strong>
+      <strong>A zero-backend, beautifully crafted GitHub Star bulk manager.</strong><br/>
+      <a href="https://hizzyishome.github.io/AbandonOldLove/">✨ Try Live Demo ✨</a>
     </p>
   </div>
 </p>

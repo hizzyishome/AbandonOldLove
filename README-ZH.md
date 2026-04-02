@@ -5,7 +5,8 @@
     <a href="./README.md">English</a> | <strong>简体中文</strong>
   </p>
   <p align="center">
-    <strong>一款无需后端、极致安全、数据纯本地、界面精美的 GitHub Star 批量管理工具。</strong>
+    <strong>一款无需后端、极致安全、数据纯本地、界面精美的 GitHub Star 批量管理工具。</strong><br/>
+    <a href="https://hizzyishome.github.io/AbandonOldLove/">✨ 点此在线体验 ✨</a>
   </p>
 </div>
 
