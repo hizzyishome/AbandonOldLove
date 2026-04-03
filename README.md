@@ -37,7 +37,12 @@
 * **Data Fetching**: GraphQL Request (`graphql-request`)
 * **I18n**: i18next & react-i18next
 
+## 💻Pages
+![alt text](image.png)
+
 ## 🚀 Quick Start
+### 0. Online
+[https://hizzyishome.github.io/AbandonOldLove/](https://hizzyishome.github.io/AbandonOldLove/)
 
 ### 1. Prerequisites
 You will need Node.js (v18+) and npm installed. 

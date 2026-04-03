@@ -74,9 +74,9 @@ export function Login() {
                 <label className="text-xs font-semibold text-slate-500 dark:text-zinc-400 uppercase tracking-wider font-sans">
                   {t('login.tokenLabel')}
                 </label>
-                <a 
-                  href="https://github.com/settings/tokens?type=beta" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/settings/tokens?type=beta"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] text-indigo-400 hover:text-indigo-300 underline underline-offset-2 transition-colors"
                   tabIndex={-1}
@@ -102,7 +102,7 @@ export function Login() {
               </p>
               <div className="bg-red-500/10 border border-red-500/20 rounded-md p-2 mt-2">
                 <p className="text-[10px] text-red-400 leading-snug font-medium">
-                  {t('login.warningText1')}<br/>
+                  {t('login.warningText1')}<br />
                   {t('login.warningText2')}
                 </p>
               </div>
@@ -145,19 +145,19 @@ export function Login() {
             </div>
           )}
 
-          <Button 
-            type="submit" 
+          <Button
+            type="submit"
             className="w-full h-12 bg-indigo-500 hover:bg-indigo-400 text-slate-900 dark:text-white font-semibold tracking-wide rounded-xl shadow-lg shadow-indigo-500/25 transition-all"
             disabled={isLoading}
           >
-            {isLoading 
+            {isLoading
               ? t('login.verifying')
               : (hasEncryptedToken ? t('login.unlockVault') : t('login.encryptPat'))}
           </Button>
 
           {!hasEncryptedToken && (
             <p className="text-xs text-center text-slate-500 dark:text-zinc-500 mt-4 px-4 leading-relaxed">
-              {i18n.language === 'en' 
+              {i18n.language === 'en'
                 ? <>Your PAT is stored securely via <span className="text-slate-700 dark:text-zinc-300">AES-GCM encryption</span> in your browser's local storage. Not a single string is sent to our own backend.</>
                 : <>您的 PAT 通过 <span className="text-slate-700 dark:text-zinc-300">AES-GCM</span> 加密安全地存储在浏览器的本地缓存中。我们不会向任何后端发出哪怕一个字符的代码。</>}
             </p>
