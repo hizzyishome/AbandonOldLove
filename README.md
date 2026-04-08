@@ -1,6 +1,5 @@
 <p align="center">
   <div align="center">
-    <div style="font-size: 64px; margin-bottom: 20px;">⭐</div>
     <p align="center" style="font-size: 64px; margin-bottom: 20px;">
       <img src="./public/logo.svg" width="1600" alt="logo">
     </p>
